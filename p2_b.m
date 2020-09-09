@@ -1,7 +1,7 @@
 y=randn(1,100000);
 z=hist(y,100);
 z=z/100000;
-x=[0.01:0.01:1];
+x=linspace(-5,5,100);
 avg = sum(x.*z);
 disp(avg);
 
